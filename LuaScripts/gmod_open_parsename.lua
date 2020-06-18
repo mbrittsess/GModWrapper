@@ -1,0 +1,1 @@
+return "luaopen_"..((...):match("%-") and (...):match("%-(.*)") or (...)):gsub("%.", "_")

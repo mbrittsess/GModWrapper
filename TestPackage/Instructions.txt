@@ -1,0 +1,4 @@
+Since GMod 12 Vanillin is something of an abandoned project, the instructions here will be short.
+GMod 12 Vanillin is not 100% complete but it is basically 99% complete.
+For building libraries with it, the instructions remain the same as for GMod 13 Vanillin. 
+To use the sample modules, put the contents of the "Modules" folder into "garrysmod\garrysmod\lua\includes\modules\".

@@ -1,0 +1,53 @@
+local LUA_TNONE          = -1
+local LUA_TNIL           = 0
+local LUA_TBOOLEAN       = 1
+local LUA_TLIGHTUSERDATA = 2
+local LUA_TNUMBER        = 3
+local LUA_TSTRING        = 4
+local LUA_TTABLE         = 5
+local LUA_TFUNCTION      = 6
+local LUA_TUSERDATA      = 7
+local LUA_TTHREAD        = 8
+
+local GTypeNamesToPureTypeInts = {
+  [""                ] = LUA_TNONE,          --certain
+  ["nil"             ] = LUA_TNIL,           --certain
+  ["string"          ] = LUA_TSTRING,        --certain
+  ["number"          ] = LUA_TNUMBER,        --certain
+  ["table"           ] = LUA_TTABLE,         --certain
+  ["bool"            ] = LUA_TBOOLEAN,       --certain
+  ["function"        ] = LUA_TFUNCTION,      --certain
+  ["thread"          ] = LUA_TTHREAD,        --certain
+  ["entity"          ] = LUA_TTABLE,
+  ["vector"          ] = LUA_TTABLE,
+  ["angle"           ] = LUA_TTABLE,
+  ["physobj"         ] = LUA_TTABLE,
+  ["save"            ] = LUA_TTABLE,
+  ["restore"         ] = LUA_TTABLE,
+  ["damageinfo"      ] = LUA_TTABLE,
+  ["effectdata"      ] = LUA_TTABLE,
+  ["movedata"        ] = LUA_TTABLE,
+  ["recipientfilter" ] = LUA_TTABLE,
+  ["usercmd"         ] = LUA_TTABLE,
+  ["vehicle"         ] = LUA_TTABLE,
+  ["material"        ] = LUA_TTABLE,
+  ["panel"           ] = LUA_TTABLE,
+  ["particle"        ] = LUA_TTABLE,
+  ["particleemitter" ] = LUA_TTABLE,
+  ["texture"         ] = LUA_TTABLE,
+  ["usermsg"         ] = LUA_TTABLE,
+  ["convar"          ] = LUA_TTABLE,
+  ["mesh"            ] = LUA_TTABLE,
+  ["matrix"          ] = LUA_TTABLE,
+  ["sound"           ] = LUA_TTABLE,
+  ["pixelvishandle"  ] = LUA_TTABLE,
+  ["dlight"          ] = LUA_TTABLE,
+  ["aischedule"      ] = LUA_TTABLE,
+  ["httpget"         ] = LUA_TTABLE,
+  ["lightuserdata"   ] = LUA_TLIGHTUSERDATA, --certain
+  ["count"           ] = LUA_TTABLE
+}
+
+local guidTypeMapInt = "{B3AA565A-B9B3-4d3a-BEDA-669FDC835B6D}"
+
+if not _R[guidTypeMapInt] then _R[guidTypeMapInt] = GTypeNamesToPureTypeInts end

@@ -1,0 +1,79 @@
+These taken from the global table in the GMod 13 Beta:
+TYPE_AISCHEDULE (string)      31 (number)
+TYPE_ANGLE (string)           9 (number)
+TYPE_BOOL (string)            4 (number)
+TYPE_CONVAR (string)          25 (number)
+TYPE_COUNT (string)           36 (number)
+TYPE_DAMAGEINFO (string)      13 (number)
+TYPE_DLIGHT (string)          30 (number)
+TYPE_EFFECTDATA (string)      14 (number)
+TYPE_ENTITY (string)          7 (number)
+TYPE_FILE (string)            35 (number)
+TYPE_FUNCTION (string)        5 (number)
+TYPE_HTTPGET (string)         32 (number)
+TYPE_IMESH (string)           26 (number)
+TYPE_INVALID (string)         -1 (number)
+TYPE_LIGHTUSERDATA (string)   33 (number)
+TYPE_MATERIAL (string)        19 (number)
+TYPE_MATRIX (string)          27 (number)
+TYPE_MOVEDATA (string)        15 (number)
+TYPE_MUSCLE (string)          1 (number)
+TYPE_NIL (string)             0 (number)
+TYPE_NORMAL (string)          0 (number)
+TYPE_NUMBER (string)          2 (number)
+TYPE_PANEL (string)           20 (number)
+TYPE_PARTICLE (string)        21 (number)
+TYPE_PARTICLEEMITTER (string) 22 (number)
+TYPE_PHYSOBJ (string)         10 (number)
+TYPE_PIXELVISHANDLE (string)  29 (number)
+TYPE_RECIPIENTFILTER (string) 16 (number)
+TYPE_RESTORE (string)         12 (number)
+TYPE_SAVE (string)            11 (number)
+TYPE_SCRIPTEDVEHICLE (string) 18 (number)
+TYPE_SOUND (string)           28 (number)
+TYPE_STRING (string)          1 (number)
+TYPE_TABLE (string)           3 (number)
+TYPE_TEXTURE (string)         23 (number)
+TYPE_THREAD (string)          6 (number)
+TYPE_USERCMD (string)         17 (number)
+TYPE_USERMSG (string)         24 (number)
+TYPE_VECTOR (string)          8 (number)
+TYPE_VIDEO (string)           34 (number)
+
+These taken from gm_gtypes.dll, run in GMod 12
+1	string
+2	number
+3	table
+4	bool
+5	function
+6	thread
+7	entity
+8	vector
+9	angle
+10	physobj
+11	save
+12	restore
+13	damageinfo
+14	effectdata
+15	movedata
+16	recipientfilter
+17	usercmd
+18	vehicle
+19	material
+20	panel
+21	particle
+22	particleemitter
+23	texture
+24	usermsg
+25	convar
+26	mesh
+27	matrix
+28	sound
+29	pixelvishandle
+30	dlight
+31	aischedule
+32	httpget
+33	lightuserdata
+34	count
+0	nil
+-1	

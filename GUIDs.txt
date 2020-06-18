@@ -1,0 +1,22 @@
+This file is a permanent backup of the GUIDs, in human-readable format, used for various purposes within the GMod->Vanilla Lua C API Wrapper.
+
+These *are* case-sensitive. Make a note of that, or Bad Things Will Happen.
+
+GUID for the Lua function used by lua_pushlstring():
+{5D623233-426C-4983-9779-0E7EEC23541E}
+
+GUID for the Lua function which executes functions and places their return values in the reference location:
+{29831788-D846-4a8f-923D-57EE9005C60E}
+
+GUID for the reference location referred-to above for return values:
+{F4318423-0526-4c5d-A60F-9AE23F13AF2D}
+
+GUID for LuaCFunction upvalues:
+{F56CF593-BBB6-4f54-8320-9B0942A85506}
+
+GUID for Lua table which gives the Lua Types of various GLua Types in integer format:
+{B3AA565A-B9B3-4d3a-BEDA-669FDC835B6D}
+
+GUID for Lua table which gives the Lua Types of various GLua Types in string format:
+{AD8E8A8E-2735-4D9A-B22D-13A64BD3B685}
+(both of the above take strings as arguments)
